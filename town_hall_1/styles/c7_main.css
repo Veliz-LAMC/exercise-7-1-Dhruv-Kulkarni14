@@ -124,3 +124,24 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+#nav_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#nav_menu li {
+  float: left;
+}
+#nav_menu li a {
+  display: block;
+  width: 20%; /* 1/5th of the body width */
+  text-align: center;
+  padding: 1em 0;
+  text-decoration: none;
+  background-color: #800000;
+  color: white;
+  font-weight: bold;
+}
+.current {
+  color: yellow;
+}

@@ -133,14 +133,15 @@ footer p {
   float: left;
 }
 #nav_menu li a {
-  display: block;
-  width: 100%; /* 1/5th of the body width */
+  display: inline-block; /* Change display to inline-block */
+  width: calc(100% / 5); /* Set width to 1/5th of the container */
   text-align: center;
   padding: 1em 0;
   text-decoration: none;
   background-color: #800000;
   color: white;
   font-weight: bold;
+  margin-right: 1px; /* Add right margin for spacing */
 }
 .current {
   color: yellow;

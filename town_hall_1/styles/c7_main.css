@@ -133,16 +133,29 @@ footer p {
   float: left;
 }
 #nav_menu li a {
-  display: inline-block; /* Change display to inline-block */
-  width: calc(100% / 5); /* Set width to 1/5th of the container */
+  display: block;
+  width: 20%;
   text-align: center;
   padding: 1em 0;
   text-decoration: none;
   background-color: #800000;
   color: white;
   font-weight: bold;
-  margin-right: 1px; /* Add right margin for spacing */
 }
 .current {
   color: yellow;
+}
+#nav_menu {
+  position: relative; /* Add relative positioning */
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+.submenu li {
+  float: none;
+}
+#nav_menu li:hover .submenu {
+  display: block;
 }

@@ -160,3 +160,8 @@ footer p {
 #nav_menu li:hover .submenu {
   display: block;
 }
+#nav_menu::after {
+  content: ""; /* Add empty content */
+  display: block; /* Display as block element */
+  clear: both; /* Clear floating elements */
+}

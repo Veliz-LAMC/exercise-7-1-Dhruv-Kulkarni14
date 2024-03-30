@@ -131,10 +131,11 @@ footer p {
 }
 #nav_menu li {
   float: left;
+	
+	display: inline;
 }
 #nav_menu li a {
   display: block;
-	display: inline;
   width: 20%;
   text-align: center;
   padding: 1em 0;

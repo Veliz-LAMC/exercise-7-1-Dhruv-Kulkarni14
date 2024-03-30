@@ -134,7 +134,7 @@ footer p {
 }
 #nav_menu li a {
   display: block;
-  width: 20%; /* 1/5th of the body width */
+  width: 50%; /* 1/5th of the body width */
   text-align: center;
   padding: 1em 0;
   text-decoration: none;

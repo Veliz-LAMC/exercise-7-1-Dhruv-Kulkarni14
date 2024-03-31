@@ -165,3 +165,6 @@ footer p {
   display: block; /* Display as block element */
   clear: both; /* Clear floating elements */
 }
+.home{
+	color: yellow;
+}
